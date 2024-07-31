@@ -41,11 +41,11 @@ class _UiSettings(BaseSettings):
         env_ignore_empty=True
     )
 
-    title: str = "Contoso"
+    title: str = "CiiAI"
     logo: Optional[str] = None
     chat_logo: Optional[str] = None
     chat_title: str = "Ko vēlies"
-    chat_description: str = "Esmu CiiAi un mēģināšu tev palīdzēt"
+    chat_description: str = "Esmu CiiAI un mēģināšu tev palīdzēt"
     favicon: str = "/favicon.ico"
     show_share_button: bool = True
     show_chat_history_button: bool = True
