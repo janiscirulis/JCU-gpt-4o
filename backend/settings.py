@@ -45,7 +45,7 @@ class _UiSettings(BaseSettings):
     logo: Optional[str] = None
     chat_logo: Optional[str] = None
     chat_title: str = "Ko vēlies"
-    chat_description: str = "Esmu CiiAI un mēģināšu tev palīdzēt"
+    chat_description: str = "Esmu CiiAI un mēģināšu tev palīdzēt. Izmantoju GPT-4o."
     favicon: str = "/favicon.ico"
     show_share_button: bool = True
     show_chat_history_button: bool = True
